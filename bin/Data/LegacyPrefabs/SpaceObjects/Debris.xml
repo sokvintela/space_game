@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<node>
+	<component type="RigidBody2D">
+		<attribute name="Body Type" value="Dynamic" />
+		<attribute name="Angular Damping" value="0" />
+	</component>
+	<component type="CollisionCircle2D">
+		<attribute name="Radius" value="4" />
+		<attribute name="Density" value="1" />
+		<attribute name="Friction" value="0.5" />
+		<attribute name="Restitution" value="0.1" />
+	</component>
+	<component type="StaticSprite2D">
+		<attribute name="Sprite" value="Sprite2D;Urho2D/debris.png" />
+	</component>
+	<component type="LDataManager">
+		<attribute name="myName" value="Debris" />
+	</component>
+</node>

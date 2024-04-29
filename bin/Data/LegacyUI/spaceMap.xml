@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Name" value="mapElements" />
+	<attribute name="Size" value="700 660" />
+	<attribute name="Horiz Alignment" value="Center" />
+	<attribute name="Vert Alignment" value="Center" />
+	<attribute name="Layout Mode" value="Vertical" />
+	<attribute name="Layout Spacing" value="10" />
+	<element type="Window">
+		<attribute name="Name" value="window_" />
+		<attribute name="Min Size" value="700 600" />
+		<attribute name="Horiz Alignment" value="Center" />
+		<attribute name="Layout Spacing" value="5" />
+		<attribute name="Layout Border" value="10 10 0 0" />
+		<element type="Sprite">
+			<attribute name="Size" value="700 600" />
+			<attribute name="Texture" value="Texture2D;Urho2D/map/map2.jpg" />
+			<attribute name="Image Rect" value="0 0 590 369" />
+			<attribute name="Opacity" value="0.1" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="backButton_" />
+		<attribute name="Min Size" value="150 50" />
+		<attribute name="Max Size" value="150 50" />
+		<attribute name="Texture" value="Texture2D;Textures/exit.png" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+	</element>
+</element>

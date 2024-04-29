@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<node>
+	<attribute name="Name" value="Ion" />
+	<attribute name="Scale" value="0.1 0.1 1" />
+	<component type="StaticSprite2D">
+		<attribute name="Sprite" value="Sprite2D;Urho2D/engines/ion.png" />
+	</component>
+	<component type="ShipEngine">
+		<attribute name="speed" value="150" />
+		<attribute name="rotationSpeed" value="3" />
+	</component>
+	<component type="TEquipment">
+		<attribute name="useCost" value="3" />
+		<attribute name="technology" value="StrongEMFields" />
+	</component>
+	<component type="Cost">
+		<attribute name="type_" value="metals" />
+		<attribute name="createCost_" value="10" />
+		<attribute name="improveCost_" value="0" />
+	</component>
+</node>

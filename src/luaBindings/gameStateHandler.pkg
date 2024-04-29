@@ -1,0 +1,30 @@
+$using namespace Urho3D;
+$#include "stateManager/gameStateHandler.h"
+$#include "utility/simpleTypes.h"
+
+class GameStateHandler : public Object
+{
+	void Start(unsigned state);
+	void PushState(unsigned state);
+	void PopState(unsigned state);
+	void EnterState(unsigned state);
+	void ExitState(unsigned state);
+	void Pause();
+	void Resume();
+	void RemoveAllStates();
+	void EnterSingleState(unsigned state);
+};
+
+GameStateHandler* GetStateHandler();
+tolua_readonly tolua_property__get_set GameStateHandler* stateHandler;
+
+${
+#define TOLUA_DISABLE_tolua_gameStateHandler_GetStateHandler00
+static int tolua_gameStateHandler_GetStateHandler00(lua_State* tolua_S)
+{
+    return ToluaGetSubsystem<GameStateHandler>(tolua_S);
+}
+
+#define TOLUA_DISABLE_tolua_get_stateHandler_ptr
+#define tolua_get_stateHandler_ptr tolua_gameStateHandler_GetStateHandler00
+$}

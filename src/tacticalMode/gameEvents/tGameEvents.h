@@ -1,0 +1,55 @@
+#pragma once
+#include <Urho3D/Core/Object.h>
+
+// NETWORK
+
+// messages to clients
+URHO3D_EVENT(RE_NEW_PLAYER, GalaxyNewPlayer)
+{
+	URHO3D_PARAM(CLIENT_ID, ClientId);
+	URHO3D_PARAM(TEAM_NUMBER, TeamNumber);
+	URHO3D_PARAM(IS_YOU, IsYou);
+}
+
+URHO3D_EVENT(RE_REMOVE_PLAYER, GalaxyRemovePlayer)
+{
+	URHO3D_PARAM(CLIENT_ID, ClientId);
+	URHO3D_PARAM(TEAM_NUMBER, TeamNumber);
+}
+
+URHO3D_EVENT(RE_CLIENT_CHANGE_TEAM, GalaxyClientChangeTeam)
+{
+	URHO3D_PARAM(CLIENT_ID, ClientId);
+	URHO3D_PARAM(TEAM_NUMBER, TeamNumber);
+}
+
+URHO3D_EVENT(RE_GAME_STARTED, GameStarted)
+{
+}
+
+// equipment
+URHO3D_EVENT(RE_EQUIPMENT_MOVE, EquipmentMoveEvent)
+{
+	URHO3D_PARAM(NODE_ID, NodeId);
+	URHO3D_PARAM(NEW_PARENT_ID, NewParentId);
+}
+
+URHO3D_EVENT(RE_CHANGE_EQUIPMENT, ChangeEquipmentEvent)
+{
+	URHO3D_PARAM(PLAYER_ID, PlayerId);
+	URHO3D_PARAM(EQUIPMENT_TYPE, EquipmentType);
+	URHO3D_PARAM(EQUIPMENT_NAME, EquipmentName);
+}
+
+URHO3D_EVENT(RE_INGAME_INFO_STRING, GameInfo)
+{
+	URHO3D_PARAM(INFO_STRING, InfoString);
+}
+
+URHO3D_EVENT(RE_OBJECT_DESTROYED, ObjectDestroyed)
+{
+}
+
+URHO3D_EVENT(RE_GAME_OVER, GameOver)
+{
+}

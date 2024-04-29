@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<node>
+	<component type="RigidBody2D">
+		<attribute name="Body Type" value="Dynamic" />
+		<attribute name="Angular Damping" value="100" />
+	</component>
+	<component type="CollisionBox2D">
+		<attribute name="Size" value="2 2" />
+		<attribute name="Density" value="1" />
+		<attribute name="Friction" value="0.5" />
+		<attribute name="Restitution" value="0.1" />
+	</component>
+	<component type="TEnergyShield">
+		<attribute name="maxValue" value="100" />
+		<attribute name="value" value="100" />
+	</component>
+	<component type="TDurability">
+		<attribute name="isFallOnDebris" value="true" />
+		<attribute name="durability" value="200" />
+		<attribute name="maxDurability" value="200" />
+	</component>
+	<component type="TDataManager">
+		<attribute name="name" value="Mob" />
+		<attribute name="visibilityArea" value="150" />
+		<attribute name="breakingDistance" value="150" />
+		<attribute name="breakingForceCoeff" value="-2" />
+	</component>
+</node>

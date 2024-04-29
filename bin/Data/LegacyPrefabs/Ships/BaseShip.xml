@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<node>
+	<component type="RigidBody2D">
+		<attribute name="Body Type" value="Dynamic" />
+		<attribute name="Mass" value="1" />
+		<attribute name="Linear Damping" value="1" />
+		<attribute name="Angular Damping" value="100" />
+	</component>
+	<component type="CollisionBox2D">
+		<attribute name="Size" value="2 2" />
+		<attribute name="Density" value="1" />
+		<attribute name="Friction" value="0.5" />
+		<attribute name="Restitution" value="0.1" />
+	</component>
+	<component type="StaticSprite2D">
+		<attribute name="Sprite" value="Sprite2D;Urho2D/ships/baseShip.png" />
+	</component>
+	<component type="LEnergyShield">
+		<attribute name="maxValue" value="200" />
+		<attribute name="value" value="200" />
+	</component>
+	<component type="LDurability">
+		<attribute name="durability" value="2000" />
+		<attribute name="maxDurability" value="2000" />
+	</component>
+	<component type="LDataManager">
+		<attribute name="myName" value="Siege Mothership" />
+		<attribute name="enemyName" value="Star Fortress" />
+		<attribute name="visibilityArea" value="200" />
+	</component>
+	<component type="LAIBase">
+		<attribute name="behaviour" value="AI/AIBaseShip.xml" />
+	</component>
+</node>

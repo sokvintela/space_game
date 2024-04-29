@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Name" value="shipElements" />
+	<attribute name="Size" value="700 660" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="0.5 0.5" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Is Visible" value="false" />
+	<attribute name="Layout Mode" value="Vertical" />
+	<attribute name="Layout Spacing" value="10" />
+	<element type="Window">
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Layout Mode" value="Horizontal" />
+		<element>
+			<attribute name="Name" value="cargoBar_" />
+			<attribute name="Min Size" value="250 450" />
+			<attribute name="Max Size" value="250 450" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Layout Mode" value="Vertical" />
+			<attribute name="Layout Spacing" value="10" />
+			<attribute name="Layout Border" value="10 10 10 10" />
+		</element>
+		<element>
+			<attribute name="Min Size" value="425 425" />
+			<attribute name="Max Size" value="400 400" />
+			<attribute name="Min Anchor" value="0 0.5" />
+			<attribute name="Max Anchor" value="0 0.5" />
+			<attribute name="Pivot" value="0 0.5" />
+			<attribute name="Layout Spacing" value="10" />
+			<element>
+				<attribute name="Size" value="70 70" />
+				<attribute name="Min Size" value="70 70" />
+				<attribute name="Max Size" value="70 70" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Priority" value="1" />
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Focus Mode" value="Focusable" />
+				<attribute name="Drag And Drop Mode" value="Target" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Name" value="leftWeaponPlace_" />
+					<attribute name="Size" value="70 70" />
+					<attribute name="Texture" value="Texture2D;Textures/cell.png" />
+					<attribute name="Image Rect" value="0 0 150 150" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Size" value="70 70" />
+				<attribute name="Min Size" value="70 70" />
+				<attribute name="Max Size" value="70 70" />
+				<attribute name="Min Anchor" value="1 0" />
+				<attribute name="Max Anchor" value="1 0" />
+				<attribute name="Pivot" value="1 0" />
+				<attribute name="Priority" value="1" />
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Focus Mode" value="Focusable" />
+				<attribute name="Drag And Drop Mode" value="Target" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Name" value="rightWeaponPlace_" />
+					<attribute name="Size" value="70 70" />
+					<attribute name="Texture" value="Texture2D;Textures/cell.png" />
+					<attribute name="Image Rect" value="0 0 150 150" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Size" value="70 70" />
+				<attribute name="Min Size" value="70 70" />
+				<attribute name="Max Size" value="70 70" />
+				<attribute name="Min Anchor" value="0 1" />
+				<attribute name="Max Anchor" value="0 1" />
+				<attribute name="Pivot" value="0 1" />
+				<attribute name="Priority" value="1" />
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Focus Mode" value="Focusable" />
+				<attribute name="Drag And Drop Mode" value="Target" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Name" value="enginePlace_" />
+					<attribute name="Size" value="70 70" />
+					<attribute name="Texture" value="Texture2D;Textures/cell.png" />
+					<attribute name="Image Rect" value="0 0 150 150" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Size" value="70 70" />
+				<attribute name="Min Size" value="70 70" />
+				<attribute name="Max Size" value="70 70" />
+				<attribute name="Min Anchor" value="1 1" />
+				<attribute name="Max Anchor" value="1 1" />
+				<attribute name="Pivot" value="1 1" />
+				<attribute name="Priority" value="1" />
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Focus Mode" value="Focusable" />
+				<attribute name="Drag And Drop Mode" value="Target" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Name" value="hyperEnginePlace_" />
+					<attribute name="Size" value="70 70" />
+					<attribute name="Texture" value="Texture2D;Textures/cell.png" />
+					<attribute name="Image Rect" value="0 0 150 150" />
+				</element>
+			</element>
+			<element type="Sprite" style="Sprite">
+				<attribute name="Name" value="shipSprite_" />
+				<attribute name="Position" value="50 30" />
+				<attribute name="Size" value="300 300" />
+				<attribute name="Texture" value="Texture2D;Urho2D/spaceships/ship1_11.png" />
+				<attribute name="Image Rect" value="0 0 600 600" />
+			</element>
+		</element>
+	</element>
+	<element>
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Layout Mode" value="Vertical" />
+		<element type="Button">
+			<attribute name="Name" value="backToSpace_" />
+			<attribute name="Min Size" value="150 50" />
+			<attribute name="Max Size" value="150 50" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Texture" value="Texture2D;Textures/exit.png" />
+			<attribute name="Image Rect" value="0 0 320 100" />
+		</element>
+	</element>
+</element>

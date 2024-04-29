@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Size" value="1024 324" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="0.5 0.5" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Layout Mode" value="Vertical" />
+	<attribute name="Layout Spacing" value="6" />
+	<element type="Button">
+		<attribute name="Name" value="video" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="400 60" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Opacity" value="0" />
+		<attribute name="Layout Mode" value="Horizontal" />
+		<attribute name="Texture" value="Texture2D;" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+		<element type="Text">
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="36" />
+			<attribute name="Text" value="Video" />
+			<attribute name="Text Alignment" value="Center" />
+			<attribute name="Auto Localizable" value="true" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="audio" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="400 60" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Opacity" value="0" />
+		<attribute name="Layout Mode" value="Horizontal" />
+		<attribute name="Texture" value="Texture2D;" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+		<element type="Text">
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="36" />
+			<attribute name="Text" value="Audio" />
+			<attribute name="Text Alignment" value="Center" />
+			<attribute name="Auto Localizable" value="true" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="controls" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="400 60" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Opacity" value="0" />
+		<attribute name="Layout Mode" value="Horizontal" />
+		<attribute name="Texture" value="Texture2D;" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+		<element type="Text">
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="36" />
+			<attribute name="Text" value="Controls" />
+			<attribute name="Text Alignment" value="Center" />
+			<attribute name="Auto Localizable" value="true" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="exit" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="400 60" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<attribute name="Opacity" value="0" />
+		<attribute name="Layout Mode" value="Horizontal" />
+		<attribute name="Texture" value="Texture2D;" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+		<element type="Text">
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="36" />
+			<attribute name="Text" value="exit" />
+			<attribute name="Text Alignment" value="Center" />
+			<attribute name="Auto Localizable" value="true" />
+		</element>
+	</element>
+</element>

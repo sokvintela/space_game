@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<node>
+	<component type="RigidBody2D">
+		<attribute name="Body Type" value="Dynamic" />
+		<attribute name="Linear Damping" value="10000000000000" />
+		<attribute name="Angular Damping" value="10000000000000" />
+	</component>
+	<component type="CollisionBox2D">
+		<attribute name="Size" value="1 1" />
+		<attribute name="Density" value="1" />
+		<attribute name="Friction" value="0.5" />
+		<attribute name="Restitution" value="0.1" />
+	</component>
+	<component type="TDurability">
+		<attribute name="isFallOnDebris" value="true" />
+		<attribute name="durability" value="100" />
+		<attribute name="maxDurability" value="100" />
+	</component>
+	<component type="TDataManager">
+		<attribute name="name" value="Asteroid" />
+	</component>
+	<component type="TResourceManager" />
+	<component type="StaticSprite2D">
+		<attribute name="Sprite" value="Sprite2D;Urho2D/asteroid.png" />
+	</component>
+</node>

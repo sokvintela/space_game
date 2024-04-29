@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<node>
+	<component type="TResearchTree" />
+	<node>
+		<attribute name="Name" value="players" />
+	</node>
+</node>

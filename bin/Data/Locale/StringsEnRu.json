@@ -1,0 +1,114 @@
+{
+	"lang":{
+		"en":"English",
+		"ru":"Русский"
+	},
+	"singleplayer":{
+		"en":"Single",
+		"ru":"Одиночная игра"
+	},
+	"multiplayer":{
+		"en":"Multiplayer",
+		"ru":"Сетевая игра"
+	},
+	"properties":{
+		"en":"Properties",
+		"ru":"Настройки"
+	},
+	"bonus":{
+		"en":"Bonus",
+		"ru":"Бонусы"
+	},
+	"exit":{
+		"en":"Exit",
+		"ru":"Выход"
+	},
+	"back":{
+		"en":"Back",
+		"ru":"Назад"
+	},
+	"next":{
+		"en":"Next",
+		"ru":"Далее"
+	},
+	"race":{
+		"en":"Race",
+		"ru":"Раса"
+	},
+	"ship":{
+		"en":"Ship",
+		"ru":"Корабль"
+	},
+	"apply":{
+		"en":"Apply",
+		"ru":"Применить"
+	},
+	"start":{
+		"en":"Start",
+		"ru":"Начать"
+	},
+	"galaxy_type":{
+		"en":"Galaxy type",
+		"ru":"Тип галактики"
+	},
+	"galaxy_age":{
+		"en":"Galaxy age",
+		"ru":"Возраст галактики"
+	},
+	"stars_count":{
+		"en":"Stars count",
+		"ru":"Число звезд"
+	},
+	"enemies_count":{
+		"en":"Enemies count",
+		"ru":"Число противников"
+	},
+	"new_game":{
+		"en":"New game",
+		"ru":"Новая игра"
+	},
+	"load_game":{
+		"en":"Load game",
+		"ru":"Загрузить"
+	},
+	"connect":{
+		"en":"Connect",
+		"ru":"Присоединиться"
+	},
+	"land":{
+		"en":"Land",
+		"ru":"Приземлиться"
+	},
+	"volume":{
+		"en":"Volume",
+		"ru":"Громкость"
+	},
+	"Star":{
+		"en":"Star",
+		"ru":"Звезда"
+	},
+	"Planet":{
+		"en":"Planet",
+		"ru":"Планета"
+	},
+	"BaseShip":{
+		"en":"Base Ship",
+		"ru":"Базовый Корабль"
+	},
+	"Spaceship":{
+		"en":"Spaceship",
+		"ru":"Корабль"
+	},
+	"Mob":{
+		"en":"Mob",
+		"ru":"Крип"
+	},
+	"energy":{
+		"en":"Energy",
+		"ru":"Энергия"
+	},
+	"metals":{
+		"en":"Metals",
+		"ru":"Металлы"
+	}
+}

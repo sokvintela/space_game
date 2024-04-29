@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<node>
+	<attribute name="Name" value="leftWeapon" />
+	<attribute name="Scale" value="0.1 0.1 1" />
+	<component type="StaticSprite2D">
+		<attribute name="Sprite" value="Sprite2D;Urho2D/weapon/rocket.png" />
+	</component>
+	<component type="Weapon">
+		<attribute name="type" value="rocket" />
+		<attribute name="damage" value="10" />
+		<attribute name="speed" value="100" />
+	</component>
+	<component type="Cost">
+		<attribute name="type_" value="metals" />
+		<attribute name="createCost_" value="10" />
+		<attribute name="improveCost_" value="0" />
+	</component>
+	<component type="LEquipment">
+		<attribute name="useCost" value="7" />
+		<attribute name="timeUseMs" value="100" />
+		<attribute name="technology" value="Base" />
+	</component>
+</node>

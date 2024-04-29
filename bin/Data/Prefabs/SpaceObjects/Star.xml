@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<node>
+	<component type="RigidBody2D" id="1">
+		<attribute name="Body Type" value="Dynamic" />
+		<attribute name="Linear Damping" value="10000000000000" />
+		<attribute name="Angular Damping" value="10000000000000" />
+	</component>
+	<component type="CollisionBox2D" id="2">
+		<attribute name="Size" value="1 1" />
+		<attribute name="Density" value="1" />
+		<attribute name="Friction" value="0.5" />
+		<attribute name="Restitution" value="0.1" />
+	</component>
+	<component type="TResourceManager" id="3" />
+	<component type="TDataManager" id="4" />
+	<component type="Gravity" id="5" />
+	<component type="StaticSprite2D" id="6">
+		<attribute name="Sprite" value="Sprite2D;Urho2D/sources/star.png" />
+	</component>
+</node>

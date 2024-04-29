@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Name" value="modulesBar_" />
+	<attribute name="Min Size" value="150 150" />
+	<attribute name="Max Size" value="150 150" />
+	<attribute name="Min Anchor" value="0 1" />
+	<attribute name="Max Anchor" value="0 1" />
+	<attribute name="Pivot" value="0 1" />
+	<attribute name="Is Enabled" value="true" />
+	<element type="Sprite">
+		<attribute name="Name" value="leftWing_" />
+		<attribute name="Position" value="0 50" />
+		<attribute name="Size" value="50 50" />
+		<attribute name="Texture" value="Texture2D;Urho2D/spaceships/leftWing.png" />
+		<attribute name="Image Rect" value="0 0 64 64" />
+	</element>
+	<element type="Sprite">
+		<attribute name="Name" value="rightWing_" />
+		<attribute name="Position" value="100 50" />
+		<attribute name="Size" value="50 50" />
+		<attribute name="Texture" value="Texture2D;Urho2D/spaceships/rightWing.png" />
+		<attribute name="Image Rect" value="0 0 64 64" />
+	</element>
+	<element type="Sprite">
+		<attribute name="Name" value="cabin_" />
+		<attribute name="Position" value="50 0" />
+		<attribute name="Size" value="50 50" />
+		<attribute name="Texture" value="Texture2D;Urho2D/spaceships/cabin.png" />
+		<attribute name="Image Rect" value="0 0 64 64" />
+	</element>
+	<element type="Sprite">
+		<attribute name="Name" value="base_" />
+		<attribute name="Position" value="50 50" />
+		<attribute name="Size" value="50 50" />
+		<attribute name="Texture" value="Texture2D;Urho2D/spaceships/base.png" />
+		<attribute name="Image Rect" value="0 0 64 64" />
+	</element>
+</element>

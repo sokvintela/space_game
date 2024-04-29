@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Name" value="uiSpaceState_" />
+	<attribute name="Size" value="1280 720" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="0.5 0.5" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Layout Mode" value="Vertical" />
+	<element>
+		<attribute name="Name" value="upperUI" />
+		<attribute name="Min Size" value="1280 30" />
+		<attribute name="Max Size" value="2147483647 30" />
+		<attribute name="Pivot" value="0 0" />
+		<element>
+			<attribute name="Size" value="305 40" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Layout Mode" value="Vertical" />
+			<element>
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Layout Mode" value="Horizontal" />
+				<attribute name="Layout Spacing" value="3" />
+				<element type="Button">
+					<attribute name="Name" value="menuButton_" />
+					<attribute name="Min Size" value="133 40" />
+					<attribute name="Max Size" value="133 40" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Texture" value="Texture2D;Textures/menu.png" />
+					<attribute name="Image Rect" value="0 0 320 100" />
+					<attribute name="Hover Image Offset" value="0 0" />
+					<attribute name="Blend Mode" value="add" />
+					<attribute name="Pressed Image Offset" value="0 0" />
+				</element>
+				<element type="Button">
+					<attribute name="Name" value="knowledgeButton_" />
+					<attribute name="Min Size" value="40 40" />
+					<attribute name="Max Size" value="40 40" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Texture" value="Texture2D;Textures/knowledge.png" />
+					<attribute name="Image Rect" value="0 0 100 100" />
+					<attribute name="Hover Image Offset" value="0 0" />
+					<attribute name="Blend Mode" value="add" />
+					<attribute name="Pressed Image Offset" value="0 0" />
+				</element>
+				<element type="Button">
+					<attribute name="Name" value="shipInfoButton_" />
+					<attribute name="Min Size" value="40 40" />
+					<attribute name="Max Size" value="40 40" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Texture" value="Texture2D;Textures/ship.png" />
+					<attribute name="Image Rect" value="0 0 100 100" />
+					<attribute name="Hover Image Offset" value="0 0" />
+					<attribute name="Blend Mode" value="add" />
+					<attribute name="Pressed Image Offset" value="0 0" />
+				</element>
+				<element type="Button">
+					<attribute name="Name" value="mapButton_" />
+					<attribute name="Min Size" value="40 40" />
+					<attribute name="Max Size" value="40 40" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Texture" value="Texture2D;Textures/map.png" />
+					<attribute name="Image Rect" value="0 0 100 100" />
+					<attribute name="Hover Image Offset" value="0 0" />
+					<attribute name="Blend Mode" value="add" />
+					<attribute name="Pressed Image Offset" value="0 0" />
+				</element>
+				<element type="Button">
+					<attribute name="Name" value="planetButton_" />
+					<attribute name="Min Size" value="40 40" />
+					<attribute name="Max Size" value="40 40" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Is Visible" value="false" />
+					<attribute name="Texture" value="Texture2D;Textures/planet.png" />
+					<attribute name="Image Rect" value="0 0 100 100" />
+					<attribute name="Hover Image Offset" value="0 0" />
+					<attribute name="Blend Mode" value="add" />
+					<attribute name="Pressed Image Offset" value="0 0" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Min Size" value="200 0" />
+				<attribute name="Pivot" value="0 0" />
+			</element>
+		</element>
+		<element>
+			<attribute name="Size" value="830 25" />
+			<attribute name="Min Size" value="0 25" />
+			<attribute name="Max Size" value="1280 25" />
+			<attribute name="Min Anchor" value="1 0" />
+			<attribute name="Max Anchor" value="1 0" />
+			<attribute name="Pivot" value="1 0" />
+			<attribute name="Layout Mode" value="Horizontal" />
+			<attribute name="Layout Spacing" value="10" />
+			<element>
+				<attribute name="Min Size" value="500 25" />
+				<attribute name="Max Size" value="500 25" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Layout Mode" value="Horizontal" />
+				<attribute name="Layout Spacing" value="10" />
+				<element type="Text">
+					<attribute name="Name" value="choosenWeaponsText_" />
+					<attribute name="Min Size" value="300 20" />
+					<attribute name="Max Size" value="300 20" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Color" value="1 1 1 1" />
+					<attribute name="Font Size" value="15" />
+					<attribute name="Text" value="Weapons" />
+				</element>
+				<element type="Text">
+					<attribute name="Name" value="shieldText_" />
+					<attribute name="Min Size" value="150 20" />
+					<attribute name="Max Size" value="150 20" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Color" value="1 1 1 1" />
+					<attribute name="Font Size" value="15" />
+					<attribute name="Text" value="Shields" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Min Size" value="100 25" />
+				<attribute name="Max Size" value="100 25" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Layout Mode" value="Horizontal" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Name" value="energySprite_" />
+					<attribute name="Texture" value="Texture2D;Urho2D/resources/energy.png" />
+					<attribute name="Image Rect" value="0 0 310 400" />
+				</element>
+				<element type="Text">
+					<attribute name="Name" value="energyValue_" />
+					<attribute name="Min Size" value="80 20" />
+					<attribute name="Max Size" value="80 20" />
+					<attribute name="Min Anchor" value="0 0.5" />
+					<attribute name="Max Anchor" value="0 0.5" />
+					<attribute name="Pivot" value="0 0.5" />
+					<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Font Size" value="15" />
+					<attribute name="Text" value="100" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Min Size" value="100 25" />
+				<attribute name="Max Size" value="100 25" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Layout Mode" value="Horizontal" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Name" value="metalsSprite_" />
+					<attribute name="Texture" value="Texture2D;Urho2D/resources/metals.png" />
+					<attribute name="Image Rect" value="0 0 400 380" />
+				</element>
+				<element type="Text">
+					<attribute name="Name" value="metalsValue_" />
+					<attribute name="Min Size" value="80 20" />
+					<attribute name="Max Size" value="80 20" />
+					<attribute name="Min Anchor" value="0 0.5" />
+					<attribute name="Max Anchor" value="0 0.5" />
+					<attribute name="Pivot" value="0 0.5" />
+					<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Font Size" value="15" />
+					<attribute name="Text" value="2000" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Min Size" value="100 25" />
+				<attribute name="Max Size" value="100 25" />
+				<attribute name="Pivot" value="0 0" />
+				<attribute name="Layout Mode" value="Horizontal" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Name" value="knowledgeSprite_" />
+					<attribute name="Texture" value="Texture2D;Urho2D/resources/knowledge.png" />
+					<attribute name="Image Rect" value="0 0 357 400" />
+				</element>
+				<element type="Text">
+					<attribute name="Name" value="knowledgeValue_" />
+					<attribute name="Min Size" value="80 20" />
+					<attribute name="Max Size" value="80 20" />
+					<attribute name="Min Anchor" value="0 0.5" />
+					<attribute name="Max Anchor" value="0 0.5" />
+					<attribute name="Pivot" value="0 0.5" />
+					<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+					<attribute name="Font Size" value="15" />
+					<attribute name="Text" value="300" />
+				</element>
+			</element>
+		</element>
+	</element>
+	<element>
+		<attribute name="Name" value="middleUI" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Layout Mode" value="Horizontal" />
+		<element type="ListView">
+			<attribute name="Name" value="completedResearchList_" />
+			<attribute name="Min Size" value="200 0" />
+			<attribute name="Max Size" value="200 2147483647" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Opacity" value="0.2" />
+			<attribute name="Is Visible" value="false" />
+			<element type="ScrollBar" internal="true" style="none">
+				<attribute name="Size" value="184 16" />
+				<attribute name="Min Anchor" value="0 1" />
+				<attribute name="Max Anchor" value="0 1" />
+				<attribute name="Pivot" value="0 1" />
+				<attribute name="Color" value="0 0 0 0" />
+				<attribute name="Top Left Color" value="0 0 0 0" />
+				<attribute name="Top Right Color" value="0 0 0 0" />
+				<attribute name="Bottom Left Color" value="0 0 0 0" />
+				<attribute name="Bottom Right Color" value="0 0 0 0" />
+				<element type="Button" internal="true" style="none">
+					<attribute name="Pivot" value="0 0" />
+				</element>
+				<element type="Slider" internal="true" style="none">
+					<attribute name="Position" value="16 0" />
+					<attribute name="Size" value="152 16" />
+					<attribute name="Pivot" value="0 0" />
+					<element type="BorderImage" internal="true" style="none">
+						<attribute name="Pivot" value="0 0" />
+					</element>
+				</element>
+				<element type="Button" internal="true" style="none">
+					<attribute name="Position" value="168 0" />
+					<attribute name="Pivot" value="0 0" />
+				</element>
+			</element>
+			<element type="ScrollBar" internal="true" style="none">
+				<attribute name="Size" value="16 16" />
+				<attribute name="Min Anchor" value="1 0" />
+				<attribute name="Max Anchor" value="1 0" />
+				<attribute name="Pivot" value="1 0" />
+				<attribute name="Color" value="0 0 0 0" />
+				<attribute name="Top Left Color" value="0 0 0 0" />
+				<attribute name="Top Right Color" value="0 0 0 0" />
+				<attribute name="Bottom Left Color" value="0 0 0 0" />
+				<attribute name="Bottom Right Color" value="0 0 0 0" />
+				<element type="Button" internal="true" style="none">
+					<attribute name="Pivot" value="0 0" />
+				</element>
+				<element type="Slider" internal="true" style="none">
+					<attribute name="Position" value="0 16" />
+					<attribute name="Size" value="16 0" />
+					<attribute name="Pivot" value="0 0" />
+					<element type="BorderImage" internal="true" style="none">
+						<attribute name="Pivot" value="0 0" />
+					</element>
+				</element>
+				<element type="Button" internal="true" style="none">
+					<attribute name="Position" value="0 16" />
+					<attribute name="Pivot" value="0 0" />
+				</element>
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Pivot" value="0 0" />
+				<element internal="true" style="none">
+					<attribute name="Pivot" value="0 0" />
+				</element>
+			</element>
+		</element>
+		<element type="ListView">
+			<attribute name="Name" value="availableResearchList_" />
+			<attribute name="Min Size" value="200 0" />
+			<attribute name="Max Size" value="200 2147483647" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Opacity" value="0.2" />
+			<attribute name="Is Visible" value="false" />
+			<element type="ScrollBar" internal="true" style="none">
+				<attribute name="Size" value="184 16" />
+				<attribute name="Min Anchor" value="0 1" />
+				<attribute name="Max Anchor" value="0 1" />
+				<attribute name="Pivot" value="0 1" />
+				<attribute name="Color" value="0 0 0 0" />
+				<attribute name="Top Left Color" value="0 0 0 0" />
+				<attribute name="Top Right Color" value="0 0 0 0" />
+				<attribute name="Bottom Left Color" value="0 0 0 0" />
+				<attribute name="Bottom Right Color" value="0 0 0 0" />
+				<element type="Button" internal="true" style="none">
+					<attribute name="Pivot" value="0 0" />
+				</element>
+				<element type="Slider" internal="true" style="none">
+					<attribute name="Position" value="16 0" />
+					<attribute name="Size" value="152 16" />
+					<attribute name="Pivot" value="0 0" />
+					<element type="BorderImage" internal="true" style="none">
+						<attribute name="Pivot" value="0 0" />
+					</element>
+				</element>
+				<element type="Button" internal="true" style="none">
+					<attribute name="Position" value="168 0" />
+					<attribute name="Pivot" value="0 0" />
+				</element>
+			</element>
+			<element type="ScrollBar" internal="true" style="none">
+				<attribute name="Size" value="16 16" />
+				<attribute name="Min Anchor" value="1 0" />
+				<attribute name="Max Anchor" value="1 0" />
+				<attribute name="Pivot" value="1 0" />
+				<attribute name="Color" value="0 0 0 0" />
+				<attribute name="Top Left Color" value="0 0 0 0" />
+				<attribute name="Top Right Color" value="0 0 0 0" />
+				<attribute name="Bottom Left Color" value="0 0 0 0" />
+				<attribute name="Bottom Right Color" value="0 0 0 0" />
+				<element type="Button" internal="true" style="none">
+					<attribute name="Pivot" value="0 0" />
+				</element>
+				<element type="Slider" internal="true" style="none">
+					<attribute name="Position" value="0 16" />
+					<attribute name="Size" value="16 0" />
+					<attribute name="Pivot" value="0 0" />
+					<element type="BorderImage" internal="true" style="none">
+						<attribute name="Pivot" value="0 0" />
+					</element>
+				</element>
+				<element type="Button" internal="true" style="none">
+					<attribute name="Position" value="0 16" />
+					<attribute name="Pivot" value="0 0" />
+				</element>
+			</element>
+			<element type="BorderImage" internal="true" style="none">
+				<attribute name="Pivot" value="0 0" />
+				<element internal="true" style="none">
+					<attribute name="Pivot" value="0 0" />
+				</element>
+			</element>
+		</element>
+		<element>
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Layout Mode" value="Vertical" />
+			<element type="Text">
+				<attribute name="Name" value="gameInfoText_" />
+				<attribute name="Min Anchor" value="1 0" />
+				<attribute name="Max Anchor" value="1 0" />
+				<attribute name="Pivot" value="1 0" />
+				<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+				<attribute name="Text Alignment" value="Right" />
+			</element>
+		</element>
+	</element>
+	<element>
+		<attribute name="Name" value="lowerUI" />
+		<attribute name="Min Size" value="1280 250" />
+		<attribute name="Max Size" value="2147483647 250" />
+		<attribute name="Pivot" value="0 0" />
+		<element>
+			<attribute name="Size" value="1280 250" />
+			<attribute name="Min Size" value="1280 250" />
+			<attribute name="Max Size" value="2147483647 250" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Layout Mode" value="Horizontal" />
+			<element>
+				<attribute name="Name" value="mapWindow_" />
+				<attribute name="Min Size" value="300 250" />
+				<attribute name="Max Size" value="300 250" />
+				<attribute name="Min Anchor" value="0 1" />
+				<attribute name="Max Anchor" value="0 1" />
+				<attribute name="Pivot" value="0 1" />
+				<attribute name="Is Enabled" value="true" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Size" value="300 250" />
+					<attribute name="Opacity" value="0.05" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Name" value="shipInfoWindow_" />
+				<attribute name="Min Size" value="300 150" />
+				<attribute name="Max Size" value="500 150" />
+				<attribute name="Min Anchor" value="0 1" />
+				<attribute name="Max Anchor" value="0 1" />
+				<attribute name="Pivot" value="0 1" />
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Layout Mode" value="Horizontal" />
+				<element>
+					<attribute name="Name" value="equipmentBar_" />
+					<attribute name="Min Size" value="100 150" />
+					<attribute name="Max Size" value="100 150" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Layout Mode" value="Horizontal" />
+				</element>
+				<element>
+					<attribute name="Name" value="modulesBar_" />
+					<attribute name="Min Size" value="150 150" />
+					<attribute name="Max Size" value="150 150" />
+					<attribute name="Min Anchor" value="0 1" />
+					<attribute name="Max Anchor" value="0 1" />
+					<attribute name="Pivot" value="0 1" />
+					<attribute name="Is Enabled" value="true" />
+				</element>
+				<element>
+					<attribute name="Name" value="cargoBar_" />
+					<attribute name="Min Size" value="100 150" />
+					<attribute name="Max Size" value="500 150" />
+					<attribute name="Pivot" value="0 0" />
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Layout Mode" value="Horizontal" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Name" value="buildingWindow_" />
+				<attribute name="Min Size" value="200 150" />
+				<attribute name="Max Size" value="200 150" />
+				<attribute name="Min Anchor" value="0 1" />
+				<attribute name="Max Anchor" value="0 1" />
+				<attribute name="Pivot" value="0 1" />
+				<element type="Sprite" style="Sprite">
+					<attribute name="Size" value="200 150" />
+					<attribute name="Opacity" value="0.05" />
+				</element>
+			</element>
+			<element>
+				<attribute name="Min Size" value="300 150" />
+				<attribute name="Max Size" value="300 150" />
+				<attribute name="Min Anchor" value="0 1" />
+				<attribute name="Max Anchor" value="0 1" />
+				<attribute name="Pivot" value="0 1" />
+				<element>
+					<attribute name="Name" value="proposalBuildings_" />
+					<attribute name="Size" value="300 75" />
+					<attribute name="Min Size" value="300 75" />
+					<attribute name="Max Size" value="300 75" />
+					<attribute name="Pivot" value="0 0" />
+				</element>
+				<element>
+					<attribute name="Name" value="completedBuildings_" />
+					<attribute name="Position" value="0 75" />
+					<attribute name="Size" value="300 75" />
+					<attribute name="Min Size" value="300 75" />
+					<attribute name="Max Size" value="300 75" />
+					<attribute name="Pivot" value="0 0" />
+				</element>
+				<element type="Sprite" style="Sprite">
+					<attribute name="Size" value="300 150" />
+					<attribute name="Opacity" value="0.05" />
+				</element>
+			</element>
+		</element>
+	</element>
+</element>

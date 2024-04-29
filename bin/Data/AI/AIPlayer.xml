@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<node name = "root" class = "Sequence">
+	<node name = "root" class = "Sequence">
+		<node name = "root" class = "Selector">
+			<node class = "HasCrystalDetector">
+			</node>
+			<node class = "HasResourceOnEFactoryAndCDetector">
+			</node>
+		</node>
+		<node name = "root" class = "DynSelector">
+			<node class = "FlyToClosestPlanet">
+			</node>
+		</node>
+		<node class = "BuildEquipmentFactory">
+		</node>
+		<node class = "CreateCrystalDetector">
+		</node>
+	</node>
+	<node name = "root" class = "Sequence">
+		<node class = "BetterRadarToGetEnergy">
+		</node>
+		<node name = "root" class = "Sequence">
+			<node name = "root" class = "DynSelector">
+				<node class = "FlyToTargetPlanet">
+				</node>
+			</node>
+			<node name = "root" class = "Selector">
+				<node class = "ImproveRadar">
+				</node>
+				<node class = "TakeRadarEnergy">
+				</node>
+			</node>
+		</node>
+	</node>
+	<node name = "root" class = "Sequence">
+		<node class = "PlanetWithoutRadar">
+		</node>
+		<node class = "HasResourceOnRadar">
+		</node>
+		<node name = "root" class = "DynSelector">
+			<node class = "FlyToTargetPlanet">
+			</node>
+		</node>
+		<node class = "BuildRadar">
+		</node>
+	</node>
+	<node name = "root" class = "Sequence">
+		<node class = "HasEveryPanetImprovedRadar">
+		</node>
+		<node class = "PlanetWithoutDefenderPlatform">
+		</node>
+		<node name = "root" class = "DynSelector">
+			<node class = "FlyToTargetPlanet">
+			</node>
+		</node>
+		<node class = "BuildDefenderPlatform">
+		</node>
+	</node>
+	<node name = "root" class = "Sequence">
+		<node class = "UseCrystalDetector">
+		</node>
+		<node name = "root" class = "DynSelector">
+			<node class = "FlyToCrystal">
+			</node>
+		</node>
+	</node>
+</node>

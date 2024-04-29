@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<node>
+	<component type="RigidBody2D">
+		<attribute name="Body Type" value="Dynamic" />
+		<attribute name="Linear Damping" value="10000000000000" />
+		<attribute name="Angular Damping" value="10000000000000" />
+	</component>
+	<component type="CollisionBox2D">
+		<attribute name="Size" value="1 1" />
+		<attribute name="Density" value="1" />
+		<attribute name="Friction" value="0.5" />
+		<attribute name="Restitution" value="0.1" />
+	</component>
+	<component type="LDurability">
+		<attribute name="durability" value="2000" />
+		<attribute name="maxDurability" value="2000" />
+		<attribute name="isFallOnDebris" value="false" />
+	</component>
+	<component type="LDataManager">
+		<attribute name="myName" value="Solid planet" />
+		<attribute name="visibilityArea" value="200" />
+	</component>
+	<component type="LAIBase">
+		<attribute name="isActive" value="true" />
+		<attribute name="behaviour" value="AI/AIPlanet.xml" />
+	</component>
+</node>

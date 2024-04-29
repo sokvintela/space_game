@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<node>
+	<component type="StaticSprite2D">
+		<attribute name="Sprite" value="Sprite2D;Urho2D/shells/round_bullet.png" />
+	</component>
+	<component type="RigidBody2D">
+		<attribute name="Body Type" value="Dynamic" />
+		<attribute name="Mass" value="0.0314159" />
+		<attribute name="Inertia" value="0.00015708" />
+	</component>
+	<component type="CollisionCircle2D">
+		<attribute name="Radius" value="0.2" />
+		<attribute name="Category Bits" value="4" />
+		<attribute name="Mask Bits" value="65535" />
+		<attribute name="Density" value="1" />
+		<attribute name="Friction" value="0.5" />
+		<attribute name="Restitution" value="0.1" />
+	</component>
+	<component type="SelfDestroyingTimer">
+		<attribute name="lifeTime" value="7000" />
+	</component>
+</node>

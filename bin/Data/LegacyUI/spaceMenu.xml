@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<element>
+	<attribute name="Name" value="menuElements" />
+	<attribute name="Size" value="200 324" />
+	<attribute name="Horiz Alignment" value="Center" />
+	<attribute name="Vert Alignment" value="Center" />
+	<attribute name="Is Visible" value="false" />
+	<attribute name="Layout Mode" value="Vertical" />
+	<attribute name="Layout Spacing" value="6" />
+	<element type="Button">
+		<attribute name="Name" value="startNewGame_" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="200 60" />
+		<attribute name="Horiz Alignment" value="Center" />
+		<attribute name="Texture" value="Texture2D;Textures/continue.png" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="saveMode_" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="200 60" />
+		<attribute name="Horiz Alignment" value="Center" />
+		<attribute name="Texture" value="Texture2D;Textures/savegame.png" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="properties_" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="200 60" />
+		<attribute name="Horiz Alignment" value="Center" />
+		<attribute name="Texture" value="Texture2D;Textures/properties.png" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="bonuses_" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="200 60" />
+		<attribute name="Horiz Alignment" value="Center" />
+		<attribute name="Texture" value="Texture2D;Textures/mainmenu.png" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="exit_" />
+		<attribute name="Min Size" value="200 60" />
+		<attribute name="Max Size" value="200 60" />
+		<attribute name="Horiz Alignment" value="Center" />
+		<attribute name="Texture" value="Texture2D;Textures/exit.png" />
+		<attribute name="Image Rect" value="0 0 320 100" />
+	</element>
+</element>
